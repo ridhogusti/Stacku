@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=19001'",
+		"debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=8081'",
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
 	},
@@ -11,6 +11,7 @@
 		"axios": "^0.16.2",
 		"react": "16.0.0-beta.5",
 		"react-native": "0.49.3",
+		"react-native-svg": "^5.4.2",
 		"react-navigation": "^1.0.0-beta.11",
 		"react-redux": "^5.0.6",
 		"redux": "^3.7.2",
